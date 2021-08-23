@@ -40,6 +40,11 @@ namespace NetCoreDemo.Controllers
             return commandItem;
         }
 
+        /// <summary>
+        /// Post command test
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult<Command> PostCommandItem(Command command)
         {
