@@ -3,6 +3,11 @@
   "version": "1.0",
   "publicReleaseRefSpec": [
     "^refs/heads/master$",
-    "^refs/tags/v\\d+\\.\\d+" 
-  ]
+    "^refs/tags/v\\d+\\.\\d+"
+  ],
+  "cloudBuild": {
+    "buildNumber": {
+      "enabled": true
+    }
+  }
 }
